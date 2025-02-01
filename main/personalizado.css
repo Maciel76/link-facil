@@ -1,0 +1,67 @@
+.hidden {
+    display: none;
+}
+
+.link-box-container {
+    position: absolute;
+    top: 100px; /* Ajuste conforme necessário */
+    right: 50px; /* Ajuste conforme necessário */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+}
+
+.link-box {
+    list-style: none;
+    padding: 0;
+}
+
+.link-box li {
+    margin: 10px 0;
+}
+
+.thumbnail {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.icon-item {
+    position: relative; /* Necessário para posicionar o box em relação ao item */
+}
+
+.hidden {
+    display: none;
+}
+
+.link-box-container {
+    position: absolute;
+    top: -150px; /* Ajuste a altura conforme necessário */
+    left: 0; /* Alinhar à esquerda do item */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px; /* Ajuste a largura conforme necessário */
+    z-index: 1000; /* Garantir que esteja à frente de outros elementos */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link-box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-box li {
+    margin: 10px 0;
+}
+
+.thumbnail {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+

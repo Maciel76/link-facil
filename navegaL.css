@@ -1,0 +1,61 @@
+.logo {
+    display: flex;
+    justify-content: space-between; /* Alinha o conteúdo nos extremos: um à esquerda, outro à direita */
+    align-items: center; /* Alinha verticalmente o conteúdo ao centro */
+}
+
+#linkFacil {
+     color: rgb(255, 255, 255);
+    margin: 0; /* Remove margem padrão, se houver */
+    font-size: 24px; /* Ajuste o tamanho da fonte como preferir */
+}
+
+.logo-img {
+    height: 50px; /* Ajuste a altura da logo conforme necessário */
+    width: auto;  /* Mantém a proporção da logo */
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    height: 100vh; /* Garante que o aside ocupe a altura total da tela */
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre logo e o texto */
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0; /* Margem superior para separar a lista da logo */
+}
+
+.menu-list li {
+    margin-bottom: 10px; /* Espaço entre os itens do menu */
+}
+
+footer {
+    margin-top: auto; /* Empurra o footer para o fim da coluna */
+}
+
+.user-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+}
+

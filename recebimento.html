@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Fácil Loja-056</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navegaL.css">
+    <link rel="stylesheet" href="personalizado.css">
+    <link rel="stylesheet" href="INFO.CSS">
+    <script src="info.js"></script>
+    <!-- Link para o Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <aside class="nav-menu">
+        <div class="logo">            
+            <!-- Espaço para adicionar logo futuramente -->
+             <a href="index.html">
+            <img src="./IMG/logo-assai.png" alt="Logo" class="logo-img"> 
+             </a><!-- Aqui você pode adicionar a logo --> 
+            <h2 id="linkFacil">Loja-056 </h2>
+        </div>
+        <nav>
+            <ul class="menu-list">
+                <li><a href="sistemasti.html"><i class="fas fa-desktop"></i> Sistema TI</a></li>
+                <li><a href="frente-de caixa.html"><i class="fas fa-user-edit"></i> Sistema Cadastro</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Sistema Comercial</a></li>
+                <li><a href="#"><i class="fas fa-file-invoice"></i> Sistema Fiscal</a></li>
+                <li><a href="#"><i class="fas fa-cogs"></i> Sistema Operações</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Gestão de Gente</a></li>
+            </ul>
+        </nav>
+        
+        <footer>
+      
+
+    <!-- Ícone de Logout -->
+    <div class="user-footer">
+        <div class="user-info">
+            <img src="./IMG/adp.png" alt="Foto de Perfil" class="profile-pic"> <!-- Foto do perfil -->
+            <p id="pUser"></p>
+        </div>
+        <a href="#" class="logout-icon" onclick="fazerLogout()">
+            <img src="./IMG/sair.png" alt="personaliza pagina"> <!-- Ícone de Sair -->
+        </a>
+    </div>
+        </footer>
+        
+    </aside>
+    
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <header>
+            <h2 id="saudacao"></h2>
+        </header>
+
+        <section class="icons">
+            
+            <!-- ====================Link personalixado ==================== -->
+            <div class="icon-item new-links" data-name="CSA">
+                <a href="https://assai.service-now.com/sp" target="_blank">
+                    <img src="./IMG/CSA.png" alt="CSA" onmouseover="showInfo('CSA')" onmouseout="scheduleHideInfo('CSA')">
+                </a>
+                <p>CSA</p>
+                <!-- Caixa de Informação -->
+                <div class="info-box" id="info-CSA" onmouseover="showInfo('CSA')" onmouseout="scheduleHideInfo('CSA')">
+                    <ul>
+                        <li><a href="https://assai.service-now.com/sp?id=sc_category&sys_id=04e1f3cadb9d5810fc7ecf24149619ac&catalog_id=-1" target="_blank">Tecnologia da Informação</a></li>
+                        <li><a href="https://assai.service-now.com/sp?id=sc_cat_item&sys_id=6fd521071bc5e8507ec597d01b4bcbfc&sysparm_category=9a0ebac71b4b695032822170f54bcb81&catalog_id=e0d08b13c3330100c8b837659bba8fb4" target="_blank">Reset de senhas Automáticos</a></li>
+                        <li><a href="https://assai.service-now.com/sp?id=my_requests" target="_blank">Meus chamados</a></li>
+                        <li><a href="https://assai.service-now.com/sp?id=my_requests" target="_blank">Base conhecimento</a></li>
+                        <li><a href="https://assai.service-now.com/sp?id=user_profile&sys" target="_blank">Meu perfil</a></li>
+                    </ul>
+                </div>
+            </div>         
+            <!-- ========================================================= -->
+            
+            <!-- ========================================================= -->
+            <div class="icon-item" data-name="Email">
+                <a href="https://outlook.office.com/mail/" target="_blank">
+                    <img src="./IMG/Outlook.png" alt="Email">
+                </a>
+                <p>Email</p>
+            </div>
+            <div class="icon-item" data-name="Rub">
+                <a href="http://10.60.137.146/vue/" target="_blank">
+                    <img src="./IMG/rub.png" alt="Rub">
+                </a>
+                <p>Rub</p>
+            </div>
+            <div class="icon-item" data-name="Horus">
+                <a href="https://horus-next.corp.assai.com.br/auth/login" target="_blank">
+                    <img src="./IMG/horus.png" alt="Horus">
+                </a>
+                <p>Horus</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Prosin">
+                <a href="https://prosinassai.gupy.io/candidates/signin" target="_blank">
+                    <img src="prosin.png" alt="Prosin">
+                </a>
+                <p>Prosin</p>
+            </div>
+            <!-- ================================================ -->
+            <div class="icon-item" data-name="Whatsapp web">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="./IMG/whatsapp.png" alt="Whatsapp web">
+                </a>
+                <p>Whatsapp web</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="ADP">
+                <a href="https://expert.brasil.adp.com/" target="_blank">
+                    <img src="IMG/adp.png" alt="ADP">
+                </a>
+                <p>ADP</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Excel">
+                <a href="https://www.microsoft365.com/launch/excel?auth=2" target="_blank">
+                    <img src="./IMG/excel.png" alt="Excel">
+                </a>
+                <p>Excel</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Universidade Assai">
+                <a href="https://universidadeassai.sa.crossknowledge.com/" target="_blank">
+                    <img src="./IMG/universidade-assai.png" alt="Universidade Assai">
+                </a>
+                <p>Universidade Assai</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Conecta">
+                <a href="https://conecta.corp.assai.com.br/portal/login" target="_blank">
+                    <img src="./IMG/conecta.png" alt="Conecta">
+                </a>
+                <p>Conecta</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Avance">
+                <a href="https://hcm19.sapsf.com/login?company=sendasdist#/login" target="_blank">
+                    <img src="./IMG/avance.png" alt="Avance">
+                </a>
+                <p>Avance</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Microestrategy">
+                <a href="https://microstrategy.corp.assai.com.br/MicroStrategy/servlet/mstrWeb" target="_blank">
+                    <img src="./IMG/microestrategy.png" alt="Microestrategy">
+                </a>
+                <p>Microestrategy</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Emporium">
+                <a href="https://emporium-vip.corp.assai.com.br/index.php?jscr=1" target="_blank">
+                    <img src="./IMG/emporium.png" alt="Emporium">
+                </a>
+                <p>Emporium</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="GPA-ATIVA">
+                <a href="https://www.gpativa.com.br/" target="_blank">
+                    <img src="./IMG/GPA-ATIVA.png" alt="GPA-ATIVA">
+                </a>
+                <p>GPA-ATIVA</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Getis">
+                <a href="https://getis.corp.assai.com.br/" target="_blank">
+                    <img src="./IMG/getis.png" alt="Getis">
+                </a>
+                <p>Getis</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Intranet">
+                <a href="https://totem.corp.assai.com.br/intranet/" target="_blank">
+                    <img src="./IMG/intranet.png" alt="Intranet">
+                </a>
+                <p>Intranet</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Bem vindos">
+                <a href="https://totem.corp.assai.com.br/seja_bem_vindo/" target="_blank">
+                    <img src="./IMG/welcome.png" alt="Bem vindos">
+                </a>
+                <p>Bem vindos</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="TODO-LIST">
+                <a href="https://to-do.office.com/tasks?utm_source=applauncher" target="_blank">
+                    <img src="./IMG/TODO-LIST.png" alt="TODO-LIST">
+                </a>
+                <p>TODO-LIST</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="SOC-Projuri">
+                <a href="https://sistema.soc.com.br/WebSoc/" target="_blank">
+                    <img src="./IMG/soc.png" alt="SOC-Projuri">
+                </a>
+                <p>SOC</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Simples-Nacional">
+                <a href="https://www8.receita.fazenda.gov.br/SimplesNacional/" target="_blank">
+                    <img src="./IMG/simples-nacional.png" alt="Simples-Nacional">
+                </a>
+                <p>Simples-Nacional</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Consulta-cpf">
+                <a href="https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp" target="_blank">
+                    <img src="./IMG/consulta-cpf.png" alt="Consulta-cpf">
+                </a>
+                <p>Consulta-cpf</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Consulta-CNPJ">
+                <a href="https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp" target="_blank">
+                    <img src="./IMG/consulta-cnpj.png" alt="Consulta-CNPJ">
+                </a>
+                <p>Consulta-CNPJ</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Portal-Sefaz">
+                <a href="https://www.nfe.fazenda.gov.br/portal/principal.aspx" target="_blank">
+                    <img src="./IMG/portal-sefaz.png" alt="Portal-Sefaz">
+                </a>
+                <p>Portal-Sefaz</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Checklist">
+                <a href="https://spa.checklistfacil.com.br/login?lang=pt-br" target="_blank">
+                    <img src="./IMG/cheklist.png" alt="Checklist">
+                </a>
+                <p>Checklist</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Emergências">
+                <a href="https://intranet.corp.assai.com.br/wp-content/uploads/2018/11/Fluxograma_Assai_primeiros_socorros_2020-2.pdf" target="_blank">
+                    <img src="./IMG/Emergencias.png" alt="Emergências">
+                </a>
+                <p>flux de Emergências</p>
+            </div>
+            <!-- =============================================== -->
+            <!-- <div class="icon-item" data-name="Fast-pass">
+                <a href="#">
+                    <img src="./IMG/fast-pass.png" alt="Fast-pass">
+                </a>
+                <p>Fast-pass</p>
+            </div> -->
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Gupy">
+                <a href="https://idp.app.gupy.io/realms/gupy/protocol/openid-connect/auth?client_id=gupy-front&redirect_uri=https%3A%2F%2Fdispatch.gupy.io%2Foauth2%2Fcallback%3Fredirect_uri%3Dhttps%3A%2F%2Fassai.gupy.io%2Fcompanies%26gupyCompanyId%3D459&state=fd70c537-6fa9-4eb5-a7ba-33a9e7ac9ace&response_mode=fragment&response_type=code&scope=openid&nonce=1388b605-4621-4b37-9887-27c39dbf2391" target="_blank">
+                    <img src="./IMG/gupy.png" alt="Gupy">
+                </a>
+                <p>Gupy</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="M-Eletronico">
+                <a href="https://www.me.com.br/">
+                    <img src="./IMG/mercado-eletronico.png" alt="M-Eletronico">
+                </a>
+                <p>M-Eletronico</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Microsoft-365">
+                <a href="https://www.office.com/" target="_blank">
+                    <img src="./IMG/microsoft-365.png" alt="Microsoft-365">
+                </a>
+                <p>Microsoft-365</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="One-driver">
+                <a href="https://assai-my.sharepoint.com/">
+                    <img src="./IMG/one-driver.png" alt="One-driver">
+                </a>
+                <p>One-driver</p>
+            </div>
+            <!-- =============================================== -->
+            <!-- <div class="icon-item" data-name="One-note">
+                <a href="#">
+                    <img src="./IMG/One-note.png" alt="One-note">
+                </a>
+                <p>One-note</p>
+            </div> -->
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Projuris">
+                <a href="https://assai.projuris.com.br/projuris" target="_blank">
+                    <img src="./IMG/projuris.png" alt="Projuris">
+                </a>
+                <p>Projuris</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Receita-federal">
+                <a href="https://www.gov.br/receitafederal/pt-br" target="_blank">
+                    <img src="./IMG/Receita-federal.png" alt="Receita-federal">
+                </a>
+                <p>Receita-federal</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Rede-hospitais">
+                <a href="https://intranet.corp.assai.com.br/wp-content/uploads/2018/11/Rede_hospitais_2020-1.xlsx" target="_blank">
+                    <img src="./IMG/rede-hospitais.png" alt="Rede-hospitais">
+                </a>
+                <p>Rede-hospitais</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Sap Concur">
+                <a href="https://us2.concursolutions.com/" target="_blank">
+                    <img src="./IMG/sap.png" alt="Sap Concur">
+                </a>
+                <p>Sap Concur</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Share Point">
+                <a href="https://assai.sharepoint.com/_layouts/15/sharepoint.aspx" target="_blank">
+                    <img src="./IMG/SHARE POINT.png" alt="Share Point">
+                </a>
+                <p>Share Point</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Segurança-para-todas">
+                <a href="https://intranet.corp.assai.com.br/wp-content/uploads/2018/11/Protocolo-Casos-de-Violencia.pdf" target="_blank">
+                    <img src="./IMG/segurança-para-todas.png" alt="Segurança-para-todas">
+                </a>
+                <p>Segurança-para-todas</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Sintegra">
+                <a href="http://www.sintegra.gov.br/" target="_blank">
+                    <img src="./IMG/sintegra.png" alt="Sintegra">
+                </a>
+                <p>Sintegra</p>
+            </div>
+            <!-- =============================================== -->
+            <!-- <div class="icon-item" data-name="Sitef">
+                <a href="#">
+                    <img src="./IMG/sitef.png" alt="Sitef">
+                </a>
+                <p>Sitef</p>
+            </div> -->
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Triangulus">
+                <a href="https://portal-nfe.corp.assai.com.br/GDeWeb_NFe/Login.aspx" target="_blank">
+                    <img src="./IMG/triangulus.png" alt="Triangulus">
+                </a>
+                <p>Triangulus</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Triangulus-nfs">
+                <a href="https://portal-nfe.corp.assai.com.br/GDeWeb_NFSe/Login.aspx" target="_blank">
+                    <img src="./IMG/triangulus-nfs.png" alt="Triangulus-nfs">
+                </a>
+                <p>Triangulus-nfs</p>
+            </div>
+            <!-- =============================================== -->
+            <!-- <div class="icon-item" data-name="Sap Concur">
+                <a href="#">
+                    <img src="./IMG/tv-assai.png" alt="Sap Concur">
+                </a>
+                <p>Sap Concur</p>
+            </div> -->
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Uber-central">
+                <a href="https://auth.uber.com/v2/?breeze_init_req_id=df76dde5-1ead-4cc1-97ac-073ec07855e7&breeze_local_zone=dca22&next_url=https%3A%2F%2Fcentral.uber.com%2Fv2%2F&state=8gUv_FaSGy5RFEVbceQ57rDulfOV_6-4aIxT3XAW_Dk%3D" target="_blank">
+                    <img src="./IMG/uber-central.png" alt="Uber-central">
+                </a>
+                <p>Uber-central</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Uranos">
+                <a href="https://urano-portal.midassolutions.com.br/072/portal/Account/Login?ReturnUrl=%2fASSAI%2fportal%2f">
+                    <img src="./IMG/uranos.png" alt="Uranos">
+                </a>
+                <p>Uranos</p>
+            </div>
+            <!-- =============================================== -->
+            <div class="icon-item" data-name="Trizy">
+                <a href="https://plataforma.trizy.com.br/" target="_blank">
+                    <img src="./IMG/trizy.png" alt="Trizy">
+                </a>
+                <p>Trizy</p>
+            </div>
+        </section>
+        
+    
+        <button id="chooseLinksBtn">Escolher Links Visíveis</button>
+    
+        <!-- Modal -->
+        <div id="modal">
+            <div id="modal-content">
+                <h2>Escolha os links que deseja ver</h2>
+                <div id="thumbnailForm">
+                    <!-- As miniaturas serão preenchidas dinamicamente -->
+                </div>
+                <button id="saveBtn">Salvar</button>
+                <button id="closeModal">Fechar</button>
+            </div>
+        </div>
+    </main>
+    <script src="add.js"></script>
+    <script src="script.js"></script>
+    <script src="personalizada.js"></script>
+
+
+</body>
+</html>
