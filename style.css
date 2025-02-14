@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Resetando margens */
 * {
     margin: 0;
@@ -7,7 +8,7 @@
 
 /* Corpo da página */
 body {
-    font-family: Arial, sans-serif;
+    font-family: poppins, sans-serif;
     background-color: #f9f9f9;
     display: flex;
 }
@@ -15,8 +16,8 @@ body {
 /* Barra de navegação à esquerda */
 .nav-menu {
     width: 250px;
-    background: linear-gradient(to right, #75c7f7, #3d83eb);
-    height: 100vh;
+    background-color: rgb(1, 34, 61);
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,6 +60,7 @@ body {
 }
 
 .user-footer {
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center; /* Alinha os itens verticalmente ao centro */
@@ -68,7 +70,7 @@ body {
     display: flex;
     flex-direction: row; /* Empilha a imagem de perfil e o nome */
     align-items: center; /* Centraliza os itens horizontalmente */
-    gap: 3px;
+    gap: 10px;
 }
 .user-info p{
     margin-top: 5px;
